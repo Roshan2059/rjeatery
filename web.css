@@ -121,6 +121,12 @@ nav a:hover {
   margin-top: 40px;
 }
 
+#swp {
+  height: 630px;
+  width: 100%;
+  background-color: #facab7;
+}
+
 #au {
   width: 100%;
   height: 570px;
