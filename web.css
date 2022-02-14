@@ -122,9 +122,54 @@ nav a:hover {
 }
 
 #swp {
-  height: 630px;
+  height: 570px;
   width: 100%;
   background-color: #facab7;
+}
+
+#swp h1{
+  text-align: center;
+  color: #2e3575;
+  font-size: 40px;
+  font-family: constantia;
+  border-bottom: 2px solid #2e3575;
+  padding-top: 30px;
+}
+
+.card{
+  margin-top: 90px;
+  margin-left: 110px;
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+  text-align: center;
+  float: left;
+}
+
+.fc{
+  background: url(images/bd.svg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.sc{
+  background: url(images/me.svg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.tc{
+  background: url(images/op.svg);
+  background-size: 100% 90%;
+  background-repeat: no-repeat;
+}
+
+.card h2{
+  font-family: constantia;
+  color: #1b2583;
+  font-size: 30px;
+  font-weight: bold;
+padding-top: 250px;
 }
 
 #au {
@@ -150,7 +195,7 @@ nav a:hover {
 }
 
 #au2 h1 {
-  font-family: sans-serif;
+  font-family: constantia;
   color: #2e3575;
   font-size: 50px;
   font-weight: bold;
@@ -163,7 +208,7 @@ nav a:hover {
   color: #2e3575;
   font-size: 20px;
   text-align: left;
-  padding-top: 50px;
+  padding-top: 30px;
   line-height: 1.6;
 }
 
